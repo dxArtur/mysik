@@ -15,12 +15,12 @@ Ao invés de um consumo impulsivo e descartável, o objetivo é cultivar momento
 ✅ Requisitos Funcionais
 Aqui estão 8 requisitos funcionais destacados da aplicação:
 
-Nº	Requisito
-1	O usuário deve conseguir adicionar faixas manualmente via upload (.mp3).
-2	A aplicação deve permitir inserir metadados como título, artista e capa.
-3 O sistema deve exibir um player fixo na parte inferior da tela.
-4	O usuário deve poder selecionar uma faixa para iniciar a reprodução.
-5	Deve ser possível ajustar o volume no player da música atual.
-6	Deve ser possível ajustar o momento da música que se esta reproduzindo.
-7	O sistema deve permitir que o usuário remova ou cancele o envio de uma música antes de adicioná-la à lista.
-8	Deve ser póssivel visualizar todas as músicas adicionadas.
+Nº	Requisito<br>
+1	O usuário deve conseguir adicionar faixas manualmente via upload (.mp3).<br>
+2	A aplicação deve permitir inserir metadados como título, artista e capa.<br>
+3 O sistema deve exibir um player fixo na parte inferior da tela.<br>
+4	O usuário deve poder selecionar uma faixa para iniciar a reprodução.<br>
+5	Deve ser possível ajustar o volume no player da música atual.<br>
+6	Deve ser possível ajustar o momento da música que se esta reproduzindo.<br>
+7	O sistema deve permitir que o usuário remova ou cancele o envio de uma música antes de adicioná-la à lista.<br>
+8	Deve ser póssivel visualizar todas as músicas adicionadas.<br>
