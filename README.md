@@ -1,4 +1,4 @@
-# My Music Player
+# Mysic, ouça consciente.
 
 Um player de música simples e moderno, construído com React e com funcionalidades avançadas, como gerenciamento de estado com Redux, testes completos e integração com service workers para uma experiência offline.
 
