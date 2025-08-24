@@ -1,26 +1,91 @@
-Mysic: Ouça consciente
-Mysic é uma aplicação web para reprodução de músicas com uma proposta diferente das plataformas convencionais: desacelerar, repensar o consumo de áudio e reconectar o usuário à experiência de montar uma playlist com o cuidado e carinho de quem escolhe discos de vinil.
+# My Music Player
 
-Ao invés de um consumo impulsivo e descartável, o objetivo é cultivar momentos musicais mais significativos, onde cada faixa adicionada tem um peso emocional — como quem vira a capa do LP e se prepara para ouvir do início ao fim.
+Um player de música simples e moderno, construído com React e com funcionalidades avançadas, como gerenciamento de estado com Redux, testes completos e integração com service workers para uma experiência offline.
 
-🚀 Sobre o Projeto
-🌐 Tecnologias: React + TypeScript, TailwindCSS, Lucide Icons
+## ✨ Funcionalidades
 
-🔉 Objetivo: Criar uma interface intuitiva e estética para descoberta, organização e reprodução de faixas.
+- **Controle de Reprodução:** `Play`, `Pause`, `Próxima` e `Anterior`.
+- **Gerenciamento de Estado:** Utiliza **Redux** para um gerenciamento de estado previsível.
+- **Lista de Favoritos:** Adicione e remova músicas da sua lista de favoritos.
+- **Design Responsivo:** A interface se adapta a diferentes tamanhos de tela.
+- **Funcionalidade Offline:** Graças ao **Service Worker**, o app pode ser acessado mesmo sem conexão à internet.
+- **Testes Abrangentes:**
+    - **Testes Unitários:** Com **Jest** e **React Testing Library** para componentes individuais.
+    - **Testes E2E (End-to-End):** Com **Cypress** para simular o comportamento do usuário na aplicação completa.
 
-📼 Inspiração: A era analógica dos vinis, onde cada álbum era uma experiência e montar playlists era quase um ritual.
+---
 
-💡 Motivação: Estimular o consumo consciente de música e valorizar a curadoria pessoal.
+## 🛠️ Tecnologias Utilizadas
 
-✅ Requisitos Funcionais
-Aqui estão 8 requisitos funcionais destacados da aplicação:
+- **Frontend:**
+    - [React](https://pt-br.reactjs.org/)
+    - [Redux Toolkit](https://redux-toolkit.js.org/)
+    - [React Router](https://reactrouter.com/)
+    - [Tailwind CSS](https://tailwindcss.com/)
+- **Testes:**
+    - [Cypress](https://www.cypress.io/) (E2E)
+    - [Jest](https://jestjs.io/) (Unitários)
+    - [React Testing Library](https://testing-library.com/) (Unitários)
 
-Nº	Requisito<br>
-1	O usuário deve conseguir adicionar faixas manualmente via upload (.mp3).<br>
-2	A aplicação deve permitir inserir metadados como título, artista e capa.<br>
-3 O sistema deve exibir um player fixo na parte inferior da tela.<br>
-4	O usuário deve poder selecionar uma faixa para iniciar a reprodução.<br>
-5	Deve ser possível ajustar o volume no player da música atual.<br>
-6	Deve ser possível ajustar o momento da música que se esta reproduzindo.<br>
-7	O sistema deve permitir que o usuário remova ou cancele o envio de uma música antes de adicioná-la à lista.<br>
-8	Deve ser póssivel visualizar todas as músicas adicionadas.<br>
+---
+
+## 🚀 Como Executar o Projeto
+
+Siga estes passos para ter uma cópia local do projeto rodando na sua máquina.
+
+### Pré-requisitos
+
+Certifique-se de que você tem o [Node.js](https://nodejs.org/en/) e o `npm` (ou `yarn`) instalados.
+
+### Instalação
+
+1.  Clone este repositório:
+    ```bash
+    git clone [https://github.com/dxArtur/mysik.git](https://github.com/dxArtur/mysik.git)
+    ```
+2.  Navegue até o diretório do projeto:
+    ```bash
+    cd mysik
+    ```
+3.  Instale as dependências:
+    ```bash
+    npm install
+    # ou
+    yarn
+    ```
+
+### Executando a Aplicação
+
+Para iniciar o servidor de desenvolvimento, execute o seguinte comando:
+```bash
+npm run start
+# ou
+yarn start
+```
+
+✅ Executando os Testes
+Este projeto inclui testes completos para garantir a estabilidade e o bom funcionamento.
+
+Testes Unitários
+Para rodar os testes unitários (com Jest e React Testing Library), execute:
+
+```bash
+
+npm run test
+# ou
+yarn test
+```
+
+Testes E2E (End-to-End)
+Para rodar os testes de ponta a ponta (com Cypress), execute:
+
+```bash
+
+npx cypress open
+# ou
+yarn cypress:open
+```
+
+ao iniciar cada um dos testes é necessário adicionar a música manualmente e dar play na mesma para que seja montado o componente e seja póssivel realizar os testes e2e
+
+
