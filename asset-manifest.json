@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mysik/static/css/main.cc53acdb.css",
-    "main.js": "/mysik/static/js/main.150d0da2.js",
+    "main.js": "/mysik/static/js/main.2f861a41.js",
     "static/js/453.c1f5c883.chunk.js": "/mysik/static/js/453.c1f5c883.chunk.js",
     "index.html": "/mysik/index.html",
     "main.cc53acdb.css.map": "/mysik/static/css/main.cc53acdb.css.map",
-    "main.150d0da2.js.map": "/mysik/static/js/main.150d0da2.js.map",
+    "main.2f861a41.js.map": "/mysik/static/js/main.2f861a41.js.map",
     "453.c1f5c883.chunk.js.map": "/mysik/static/js/453.c1f5c883.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc53acdb.css",
-    "static/js/main.150d0da2.js"
+    "static/js/main.2f861a41.js"
   ]
 }
